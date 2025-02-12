@@ -13,7 +13,7 @@ int main()
  }
  else if(y%4==0)
  {
-    printf(" Leap Year ");
+    printf("Leap Year");
  }
  else
  {
