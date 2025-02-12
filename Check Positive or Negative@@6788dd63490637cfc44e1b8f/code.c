@@ -13,7 +13,7 @@ int main()
     }
     if(a==0)
     {
-        print("Zero");
+        printf("Zero");
     }
     return 0;
 }
