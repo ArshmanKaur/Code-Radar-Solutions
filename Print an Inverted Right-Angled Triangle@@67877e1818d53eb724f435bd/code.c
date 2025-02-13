@@ -2,8 +2,16 @@
 int main()
 {
     int i,j;
-    scanf("%d",&i,&j);
-    for(i=1;i<=n;i++){
-        printf("*",i);
-    }
+    scanf("%d", &rows);
+	
+  	for ( i = rows; i >= 1; i-- ) 
+  	{
+      	for ( j = 1 ; j <= i; j++ ) 
+      	{
+          	printf("%d", i);
+      	}
+      	printf("\n");
+  	}
+  	return 0;
 }
+    
