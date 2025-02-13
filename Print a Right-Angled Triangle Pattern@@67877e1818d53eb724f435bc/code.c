@@ -9,6 +9,8 @@ int main()
         {
          printf("* ",i);
         }
+        printf("\n");
+ 
     }
     printf("\n");
 }
